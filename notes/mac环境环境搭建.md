@@ -8,36 +8,36 @@
      比如： -javaagent:/Users/qinshuangchun/soft/intelijIdea/JetbrainsCrack-2.7-release-str.jar
   5. 复制如下文本：
 
-        {"licenseId":"1337",
-        "licenseeName":"qinscx",
-        "assigneeName":"",
-        "assigneeEmail":"",
-        "licenseRestriction":"Unlimited license till end of the century.",
-        "checkConcurrentUse":false,
-        "products":[
-        {"code":"II","paidUpTo":"2099-12-31"},
-        {"code":"DM","paidUpTo":"2099-12-31"},
-        {"code":"AC","paidUpTo":"2099-12-31"},
-        {"code":"RS0","paidUpTo":"2099-12-31"},
-        {"code":"WS","paidUpTo":"2099-12-31"},
-        {"code":"DPN","paidUpTo":"2099-12-31"},
-        {"code":"RC","paidUpTo":"2099-12-31"},
-        {"code":"PS","paidUpTo":"2099-12-31"},
-        {"code":"DC","paidUpTo":"2099-12-31"},
-        {"code":"RM","paidUpTo":"2099-12-31"},
-        {"code":"CL","paidUpTo":"2099-12-31"},
-        {"code":"PC","paidUpTo":"2099-12-31"},
-        {"code":"DB","paidUpTo":"2099-12-31"},
-        {"code":"GO","paidUpTo":"2099-12-31"},
-        {"code":"RD","paidUpTo":"2099-12-31"}
-        ],
-        "hash":"2911276/0",
-        "gracePeriodDays":7,
-        "autoProlongated":false}
+    {"licenseId":"1337",
+    "licenseeName":"qinscx",
+    "assigneeName":"",
+    "assigneeEmail":"",
+    "licenseRestriction":"Unlimited license till end of the century.",
+    "checkConcurrentUse":false,
+    "products":[
+    {"code":"II","paidUpTo":"2099-12-31"},
+    {"code":"DM","paidUpTo":"2099-12-31"},
+    {"code":"AC","paidUpTo":"2099-12-31"},
+    {"code":"RS0","paidUpTo":"2099-12-31"},
+    {"code":"WS","paidUpTo":"2099-12-31"},
+    {"code":"DPN","paidUpTo":"2099-12-31"},
+    {"code":"RC","paidUpTo":"2099-12-31"},
+    {"code":"PS","paidUpTo":"2099-12-31"},
+    {"code":"DC","paidUpTo":"2099-12-31"},
+    {"code":"RM","paidUpTo":"2099-12-31"},
+    {"code":"CL","paidUpTo":"2099-12-31"},
+    {"code":"PC","paidUpTo":"2099-12-31"},
+    {"code":"DB","paidUpTo":"2099-12-31"},
+    {"code":"GO","paidUpTo":"2099-12-31"},
+    {"code":"RD","paidUpTo":"2099-12-31"}
+    ],
+    "hash":"2911276/0",
+    "gracePeriodDays":7,
+    "autoProlongated":false}
 
   6. 启动webstorm，选择使用Activaction code激活，粘贴上面复制的内容，激活成功，正常打开webstorm
 
-## 安装node.js环境
+## 安装node.js环境
   1. 执行 brew install node 
   2. 安装的版本当前为 v8.7.0
   3. 执行 brew upgrade， node 升级至 
@@ -99,4 +99,4 @@ Package.json 属性说明
 
     $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-安装完成之后就可以使用 cnpm 命令来安装模块了，使用 cnpm 命令，就是使用淘宝的镜像来安装模块。
+安装完成之后就可以使用 cnpm 命令来安装模块了，使用 cnpm 命令，就是使用淘宝的镜像来安装模块。
